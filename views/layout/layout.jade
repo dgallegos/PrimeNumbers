@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    title= site.title
+    link(rel='stylesheet', href='/css/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+
+    include header
+    div(class="container-fluid")
+        block content
+
+    include footer
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    script(src="/javascripts/app.js")

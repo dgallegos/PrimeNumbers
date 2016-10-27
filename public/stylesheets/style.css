@@ -1,0 +1,45 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body {
+  /* Margin bottom by footer height */ 
+  margin-bottom: 60px;
+  background-color: #e9ebee;
+}
+
+.navbar-default {
+  background-color: rgba(43,44,46,0.95);
+}
+.navbar-default .navbar-brand {
+  color: #FFF;
+}
+
+#content {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B7B7B7;
+  background-color: #FFF;
+  min-height: 600px;
+  padding: 4em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  min-height: 3em;
+  text-align:center;
+  padding-top: 1em;
+  color: rgba(43,44,46,0.95);
+}
+
+.prime-number {
+  text-align: right;
+}
