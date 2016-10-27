@@ -11,3 +11,8 @@ Start Server
 ============
 Locally start Node.js server at default port
 - `npm start` - Starts npm server at http://localhost:3000/
+
+API Example
+===========
+The server has an API that returns prime numbers as a JSON array object.
+- `http://localhost:3000/prime_numbers.json?generate=23` - Generates the first 23 prime numbers
