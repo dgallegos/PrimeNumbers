@@ -21,8 +21,8 @@ PrimeNumbers.isPrime = function (testNum) {
     return true;
   }
 
-  // The max number we have to test is half of the test number
-  var maxPossibleTest = testNum / 2;
+  // The max number we have to test is the square-root of that number
+  var maxPossibleTest = Math.sqrt(testNum);
   // Go through each number between 2 and 
   for(var x = 2; x <= maxPossibleTest; x++) {
     // If we're able to get a modulus that equals zero, it's not prime
